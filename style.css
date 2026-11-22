@@ -1,0 +1,182 @@
+
+body {
+    font-family: sans-serif;
+    background-color: #d8a13a;
+    margin: 0;
+    font-size: 20px ;
+}
+
+main {
+    padding: 30px;
+}
+
+header {
+    background-color:#d8a13a;
+    padding: 20px;
+    border-bottom: 3px solid #FFF3D6;
+    text-align: center;
+}
+
+h2 {
+    font-weight: bold;
+    color:rgb(236, 234, 234);
+}
+
+p {
+    color: rgb(240, 230, 230);
+    line-height: 1.5;
+}
+
+.menu {
+    list-style: none;
+    margin: 0;
+  
+    padding: 15px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu-link {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #926106;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)),
+    url("chicken-cafe.png");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.hero-content {
+    max-width: 700px;
+    padding: 20px;
+}
+
+h1{
+    font-size: 3em;
+    color: #FFF3D6;
+    margin-bottom: 20px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 30px;
+    background: #36343069;
+    padding: 20px;
+    border-radius: 5px;
+    border: #926106 solid 2px;
+    text-align: center;
+}   
+footer {
+    background: url("footer.png") no-repeat center/cover;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #FFF3D6;
+}  
+.features{
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 25px;
+ margin-top: 30px;
+}
+.feature {
+    background-color: #926106;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+     transition: all 0.3s ease;
+}
+.feature img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    border-radius: 50px;
+    padding: 5px;
+    box-sizing: border-box;
+   
+}
+.feature p {
+    line-height: 1.5;
+    background-color: #c79a46;
+    padding: 30pxauto;
+    border: #ac7000 solid 2px;
+    border-radius: 10px;
+}
+h3{
+    font-size: 1em;
+    color: #FFF3D6;
+    margin-bottom: 5px;
+}
+form{
+    width: 300px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #ac7000;
+    color: #f7d484;
+    border-radius: 20px;
+
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+
+}
+input{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+button{
+    width: 100%;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #926106;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+select{
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+}
+.feature:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(236, 156, 80, 0.897);
+}
+input:hover{
+    transform: scale(1.02);
+    box-shadow: 0 0 20px rgba(236, 156, 80, 0.897);
+}
+button:hover{
+    transform: scale(1.10);
+    box-shadow: 0 0 20px rgba(236, 156, 80, 0.897);
+}
+.reservation{
+    background: url("Gemini_Generated_Image_w0ckwjw0ckwjw0ck.jpg") no-repeat center/cover;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #FFF3D6;
+}
